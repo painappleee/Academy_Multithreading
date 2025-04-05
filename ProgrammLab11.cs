@@ -16,9 +16,9 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace MultiThread01
 {
-    class ProgrammLab01
+    class ProgrammLab11
     {
-        static void MainLab01()
+        static void MainLab11()
         {
             Console.WriteLine("Основной поток начал работу");
             

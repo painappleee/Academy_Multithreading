@@ -19,14 +19,14 @@ using System.Threading.Tasks;
 
 namespace MultiThread01
 {
-    class ProgrammLab02
+    class ProgrammLab12
     {
         static Thread? thread1;
         static object locker = new object();
         static bool firstCompleted = false;
         static AutoResetEvent firstThreadCompleted = new AutoResetEvent(false);
 
-        static void MainLab02()
+        static void MainLab12()
         {
             Console.WriteLine("Основной поток начал работу");
 
